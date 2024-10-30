@@ -1,0 +1,21 @@
+<mvc:View controllerName="attendanceshabas.attendanceshabas.controller.Home"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <VBox id="homeContainer" class="homeContainer">
+        <!-- RIGHT SIDE -->
+        <VBox id="rightContainer" class="rightContainer">
+            <HBox id="empDetailsHbox" class="empDetailsHbox">            
+                <Image id="empDetailsIcon" class="empDetailsIcon" src="css/images/question.png" width="30px"/>                      
+                <Text id="empDetailsText" class="empDetailsText" text="נתוני עובד" />            
+            </HBox>
+        </VBox>
+        <!-- CENTER -->
+        <VBox id="centerContainer" class="centerContainer">
+        
+        </VBox>
+        <!-- LEFT SIDE -->
+        <VBox id="leftContainer" class="leftContainer">
+        
+        </VBox>
+    </VBox>
+</mvc:View>

@@ -1,0 +1,43 @@
+.homeContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 3rem;
+}
+
+.rightContainer {}
+
+.centerContainer {}
+
+.leftContainer {}
+
+.empDetailsHbox {
+    /* display: flex;
+    flex-direction: row-reverse;
+    width: 12rem;
+    background: #f3f3;
+    border-radius: 21px;
+    justify-content: space-between;
+    align-items: center; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 12rem;
+    padding: 0.5rem; /* Optional: Adjust padding as needed */
+    box-sizing: border-box;
+    flex-direction: row-reverse;
+    background: #f3f3;
+    border-radius: 21px;
+}
+
+.empDetailsText {
+    margin: 0;
+}
+
+.empDetailsIcon {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    max-height: 3rem; /* Adjust this value for image size */
+    object-fit: cover;
+}
